@@ -1,0 +1,30 @@
+.nav {
+	position: absolute;
+	top: 15px;
+	z-index: 99;
+	left: 0;
+	right: 0;
+}
+.uk-sticky-placeholder {
+	height: 0 !important;
+}
+.top-wrap::before, .overlay-wrap::before {
+	position: absolute;
+	top:0;
+	right:0;
+	left: 0;
+	bottom: 0;
+	content: '';
+	z-index: 1;
+}
+.top-wrap-height {
+	height: 50vh;
+	min-height: 360px;
+	transition: height 0.25s;
+}
+.top-container {
+	z-index: 2;
+}
+.uk-logo img {
+	height: 60px;
+}
